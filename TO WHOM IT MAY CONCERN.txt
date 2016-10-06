@@ -1,0 +1,9 @@
+To Whom It May Concern,
+
+I elected to do the second option, add a way to upload and view images for the products.  I added code to the index.js file for client side logic, I added a partial view to display the small form, I added a ProductPhotos controller to process the GET and POST actions, and I added a table to the database to store the images and their relations to the products (along with all the necessary models to interact with the table).  I included a database script file that will recreate my two tables and the data I had put inside.  When you go to the index, there will be a photo button added to the table for each product.  Clicking the button will open a dialog which will show any associated images and allow the user to upload a new image.  
+
+I tried to match the existing code as much as possible to make everything uniform.  This was an interesting challenge and I enjoyed working on it.  Hopefully you like what I've done.
+
+
+Respectfully, 
+Miguel Pinales

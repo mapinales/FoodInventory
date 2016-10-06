@@ -1,0 +1,30 @@
+﻿<style>
+    img {
+        width: 50%;
+    }
+
+    a {
+        cursor: pointer;
+    }
+
+    #imageLinks {
+        margin-top: 10px;
+    }
+
+    .activeLink {
+        background-color: #f6f37c;
+    }
+</style>
+
+
+<form id="frmAddProductPhoto">
+    <div id="photos" class="form-group">
+        <img id="imageHolder" />
+    </div>
+    <div id="imageLinks" class="form-group"></div>
+    <div  class="form-group">
+        <label for="txtFileName">Add new photo</label>
+        <input type="file" accept=".jpg, .png" required id="txtFileName" name="txtFileName" class="form-control" />
+        <small id="txtFileNameHelp" class="form-text text-muted">Image must be .jpg or .png and no larger than 500KB.</small>
+    </div>    
+</form>
